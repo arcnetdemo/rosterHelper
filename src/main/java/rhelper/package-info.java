@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author akira
+ * @author
  *
  */
 package rhelper;

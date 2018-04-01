@@ -10,28 +10,21 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * 勤務情報クラス(POJO)
- * 
- * @author akira
+ * @author
  *
  */
 public class RosterInfo {
 
-	/**
-	 * デフォルトレコード数（日数）
-	 */
-	private static final int DAYS = 31;
-
 	@Getter
 	@Setter
 	private RosterHeaderInfo header;
-	
+
 	@Getter
-	private List<RosterRowInfo> list;
-	
+	private List<RosterRowInfo> rowList;
+
 	public RosterInfo() {
 		header = new RosterHeaderInfo();
-		list = new ArrayList<RosterRowInfo>(DAYS);
+		rowList = new ArrayList<RosterRowInfo>();
 	}
 
 }

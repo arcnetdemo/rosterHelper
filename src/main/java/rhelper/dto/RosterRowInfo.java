@@ -8,9 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * 勤務各日情報クラス(POJO)
- * 
- * @author akira
+ * @author
  *
  */
 @Getter

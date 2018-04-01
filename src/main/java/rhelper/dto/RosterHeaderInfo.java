@@ -8,9 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * 勤務基本情報(POJO)
- * 
- * @author akira
+ * @author
  *
  */
 @Getter
@@ -50,4 +48,5 @@ public class RosterHeaderInfo {
 	/** 休憩時間合計（分） */
 	/* (optional) */
 	private int sumOfInterval;
+
 }
